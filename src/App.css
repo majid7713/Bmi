@@ -1,38 +1,72 @@
 .App {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+  background-color: rgb(156, 155, 49);
+  font-family: "Dancing Script", cursive;
+}
+
+.books-list ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.books-list li {
+  background: rgba(0, 255, 255, 0.342);
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.books-list li:hover {
+  opacity: 0.75;
+}
+
+.navbar {
+  padding: 10px 20px;
   text-align: center;
+  margin: 10px 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.form form {
+  padding: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form input[type="text"] {
+  width: 100px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 6px 0;
+  background: white;
+  color: black;
+  border: 0;
+  width: 70%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.form  input[type="submit"] {
+  width: 100px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-left:  56px;
+  background: rgba(187, 54, 54, 0.63);
   color: white;
+  border: 0;
+  width: 20%;
 }
 
-.App-link {
-  color: #61dafb;
+.form  input[type="submit"]:hover {
+  width: 100px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-left:  56;
+  background: rgba(79, 212, 113, 0.63);
+  color: white;
+  border: 0;
+  width: 20%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
